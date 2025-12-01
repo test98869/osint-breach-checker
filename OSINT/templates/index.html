@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSINT Breach Checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 OSINT Breach Checker</h1>
+            <p class="subtitle">Check if your email and password have been compromised</p>
+        </header>
+
+        <div class="card">
+            <form id="checkForm">
+                <div class="form-group">
+                    <label for="email">📧 Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">🔐 Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password to check" required>
+                    <small>Your password is hashed locally and never sent in full</small>
+                </div>
+
+                <button type="submit" id="checkBtn">
+                    <span id="btnText">Check Now</span>
+                    <span id="btnLoader" class="loader" style="display: none;"></span>
+                </button>
+            </form>
+        </div>
+
+        <div id="results" class="results" style="display: none;">
+            <div class="card">
+                <h2>📊 Analysis Report</h2>
+                
+                <div class="result-section">
+                    <h3>📧 Email Status</h3>
+                    <div id="emailResult"></div>
+                    <div id="emailSources" class="sources"></div>
+                </div>
+
+                <div class="result-section">
+                    <h3>🔐 Password Status</h3>
+                    <div id="passwordResult"></div>
+                </div>
+
+                <div class="result-section risk-section">
+                    <h3>⚠️ Risk Assessment</h3>
+                    <div id="riskLevel" class="risk-badge"></div>
+                    <div id="riskMessage"></div>
+                    <div id="recommendation" class="recommendation"></div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>🛡️ Ethical Security Research Tool | Privacy-Focused | No Data Stored</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
