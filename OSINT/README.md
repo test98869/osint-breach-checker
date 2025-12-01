@@ -8,16 +8,16 @@ A modern, ethical security research tool that checks if an email has been compro
 
 ## ✨ Features
 
-- 🔐 **Email Breach Check** - Search across multiple breach databases (IntelX, LeakCheck)
-- 🛡️ **Password Exposure Check** - Uses HIBP Pwned Passwords API with k-anonymity
-- 📊 **Risk Assessment** - Color-coded risk levels with actionable recommendations
-- 🌐 **Web Interface** - Beautiful dark-themed UI built with Flask
-- 💻 **CLI Tool** - Command-line interface for quick checks
-- 🔒 **Privacy-Focused** - Passwords hashed locally, never sent in full
-- 📝 **No Data Storage** - Nothing is logged or stored
-- 🆓 **Free to Use** - No API keys required
+- **Email Breach Check** - Search across multiple breach databases (IntelX, LeakCheck)
+- **Password Exposure Check** - Uses HIBP Pwned Passwords API with k-anonymity
+- **Risk Assessment** - Color-coded risk levels with actionable recommendations
+- **Web Interface** - Beautiful dark-themed UI built with Flask
+- **CLI Tool** - Command-line interface for quick checks
+- **Privacy-Focused** - Passwords hashed locally, never sent in full
+- **No Data Storage** - Nothing is logged or stored
+- **Free to Use** - No API keys required
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -87,14 +87,14 @@ The tool will prompt you for:
 ## Legal & Ethical Use
 
 This tool is for:
-- ✅ Checking your own accounts
-- ✅ Security research with permission
-- ✅ Helping others assess their security posture
+- Checking your own accounts
+- Security research with permission
+- Helping others assess their security posture
 
 NOT for:
-- ❌ Unauthorized access attempts
-- ❌ Credential stuffing
-- ❌ Any malicious activity
+- Unauthorized access attempts
+- Credential stuffing
+- Any malicious activity
 
 ## Example Output
 
@@ -150,14 +150,14 @@ NOT for:
 ## ⚖️ Legal & Ethical Use
 
 This tool is designed for:
-- ✅ Checking your own accounts
-- ✅ Security research with permission
+- Checking your own accounts
+- Security research with permission
 - ✅ Helping others assess their security posture
 
 NOT for:
-- ❌ Unauthorized access attempts
-- ❌ Credential stuffing
-- ❌ Any malicious activity
+- Unauthorized access attempts
+- Credential stuffing
+- Any malicious activity
 
 ## 🤝 Contributing
 
